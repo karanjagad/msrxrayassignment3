@@ -46,14 +46,13 @@ Findings for the RQ
 
 ### Process delta:
 
-Collecting all the repositories based on above input data criteria and then Parsing the csv files under */output/repositories_selected folder* and finding the count of the selected repositories for each dependency pair 
+Collecting all the repositories based on above input data criteria and then Parsing the csv files under */process/repositories_with_dependencies folder* and finding the count_a, count_b,	count_pair, pom(a), pom(b), p(a), p(b), p(c_pair), p(a)*p(b), Percentage difference
 
 ### Output delta:
 
 Selected repository results after changing parameters was similar for all dependency pairs except for one pair which is *org.apache.lucene_lucene-analyzers-common_org.apache.lucene_lucene-core* 
 The orginal table had 27 selected repositories but the reproduced table has only 9 repositories.(Reason can be the repository does not exist or during the collection program timed out/403 Forbiden Error)
 All the other 18 dependency pair showed similar selected repository count like the orginalt table
-
 
 ### Implementation of running the code:
 
