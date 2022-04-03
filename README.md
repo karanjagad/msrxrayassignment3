@@ -27,7 +27,7 @@ ref : https://github.com/gorjatschev/applying-apis/tree/main/output
 
 ### Output data:
  
-- The CSV files containing list of rows as mentioned below:
+- The CSV files containing list of coloums as mentioned below:
   - api_a	
   - api_b	
   - count_a	
