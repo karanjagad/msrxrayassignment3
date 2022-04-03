@@ -50,9 +50,13 @@ Collecting all the repositories based on above input data criteria and then Pars
 
 ### Output delta:
 
-Selected repository results after changing parameters was similar for all dependency pairs except for one pair which is *org.apache.lucene_lucene-analyzers-common_org.apache.lucene_lucene-core* 
-The orginal table had 27 selected repositories but the reproduced table has only 9 repositories.(Reason can be the repository does not exist or during the collection program timed out/403 Forbiden Error)
-All the other 18 dependency pair showed similar selected repository count like the orginalt table
+The output file mcr_assignment3_analyse.csv was generated.
+The columns of the csv file contains.
+Names of API dependency pairs.
+The individual and combined occurence count for each API.
+The corresponding  propabilities of each API .
+The product of propabilities of each API.
+The percent difference in the propabilities of combined occurence and product of individual occurences
 
 ### Implementation of running the code:
 
