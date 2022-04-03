@@ -78,9 +78,9 @@ implies_df = pd.DataFrame(
     ],
 )
 implies_df["p(a)*p(b)"] = implies_df["p(a)"] * implies_df["p(b)"]
-implies_df["Percentage difference"] = 1 - (
-    implies_df["p(a)*p(b)"] / implies_df["count_pair"]
-)
+implies_df["Percentage difference"] = (1 - (
+    implies_df["p(a)*p(b)"] / implies_df["p(c_pair)"]
+))*100
 
 # generate csv from dataframe implies_df
 implies_df.to_csv("../data/output/mcr_assignment3_analyse.csv")
